@@ -19,6 +19,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
+import com.example.dogglers.data.DataSource
+import com.example.dogglers.data.j
 import com.example.dogglers.databinding.ActivityGridListBinding
 
 class GridListActivity : AppCompatActivity() {
@@ -33,6 +35,7 @@ class GridListActivity : AppCompatActivity() {
         binding.gridRecyclerView.adapter = DogCardAdapter(
             applicationContext,
             Layout.GRID
+
         )
 
         // Specify fixed size to improve performance
@@ -42,3 +45,6 @@ class GridListActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }
+
+
+

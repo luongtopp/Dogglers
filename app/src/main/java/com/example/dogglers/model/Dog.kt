@@ -19,6 +19,7 @@ import androidx.annotation.DrawableRes
 
 /**
  * A data class to represent the information presented in the dog card
+ * dich: Mot lop du lieu dai dien cho thong tin duoc trinh bay trong the cho
  */
 data class Dog(
     @DrawableRes val imageResourceId: Int,
